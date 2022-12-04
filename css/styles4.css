@@ -1,0 +1,176 @@
+
+
+  body {
+    margin: 0px auto;
+
+    cursor: url('../images/pointycursor.png'), auto;
+
+  }
+
+  .primary {
+    width:30%;
+    margin:2em;
+  border: 1px solid yellow;
+    font-family: 'Nova Mono', monospace;
+    color:white;
+    z-index:5;
+  }
+
+.beforescroll {
+  height: 100px;
+  width: 100px;
+  display:none;
+}
+
+.afterscroll {
+  height: 100px;
+  width: 100px;
+  display:block;
+}
+  .primary h1 {
+    font-family: 'Nova Mono', monospace;
+    color:white;
+    rotate: 90deg;
+    position:relative;
+    left:50%;
+    top:40em;
+    scale: 2;
+
+    }
+
+.death {
+    font-family: 'Nova Mono', monospace;
+    color:white;
+    rotate: 90deg;
+    position: fixed;
+padding:0;
+margin:0;
+    left:98em;
+    top:25em;
+    scale:2;
+    border: 1px solid yellow;
+ font-family: 'Nova Mono', monospace;
+   color:white;
+    z-index:5;
+    }
+}
+
+
+
+
+  .primary h2 {
+    font-family: Helvetica, sans-serif;
+    color:30356b;
+    mix-blend-mode: overlay;
+    rotate: 90deg;
+    position:relative;
+    left:09em;
+    top:15em;
+    scale: 12;
+
+  }
+
+  .purple {
+    color:white;
+    margin-right: 20px;
+    font-family: 'Nova Mono', monospace;
+
+  }
+
+.starlink{
+  color:white;
+  margin-right: 11em;
+
+  bottom:0;
+  right:0;
+  position:fixed;
+}
+  .purplecaption {
+    color:white;
+    margin-left: 30px;
+    padding-top: 1em;
+  }
+
+  .purplecaption2 {
+    color:white;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+
+  .authorlink {
+    bottom:0;
+    right:0;
+    position:fixed;
+    color:white;
+    font-family: 'Nova Mono', monospace;
+      margin-right: 20px;
+  }
+
+
+  .animatedhand {
+    width:50%;
+    height:100vh;
+    float:right;
+    height:100vh;
+    opacity: 70%;
+    position: fixed;
+    top:0;
+    right:0;
+
+  }
+
+  .animatedhand  {
+    width:100%;
+    height:100vh;
+    object-fit:cover;
+    /* object-position:right; */
+  }
+
+
+
+
+  .backgroundimage {
+    width:100%;
+    height:auto;
+    margin:0;
+    padding:0;
+    top:0;
+    position: absolute;
+    z-index:-1;
+
+  }
+
+.backgroundimage img {
+  width:100%;
+  min-height:100vh;
+  object-fit:cover;
+}
+
+
+
+  .linkformat a {
+    font-family: 'Nova Mono', monospace;
+    color: white;
+text-decoration: none
+  }
+
+   nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+
+  nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin:10px 30px;
+    align-items: center;
+  }
+
+  nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: Helvetica, sans-serif;
+    align-items: center;
+  }
