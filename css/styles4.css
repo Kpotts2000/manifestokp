@@ -10,7 +10,6 @@
   .primary {
     width:30%;
     margin:2em;
-  border: 1px solid yellow;
     font-family: 'Nova Mono', monospace;
     color:white;
     z-index:5;
@@ -27,15 +26,20 @@
   width: 100px;
   display:block;
 }
+
+.rightstar {
+right: 1em;
+position:relative
+
+}
   .primary h1 {
     font-family: 'Nova Mono', monospace;
     color:white;
     rotate: 90deg;
-    position:relative;
-    left:50%;
-    top:40em;
-    scale: 2;
-
+        scale: 2;
+    margin:0;
+display:flex;
+flex-wrap:nowrap;
     }
 
 .death {
@@ -44,18 +48,50 @@
     rotate: 90deg;
     position: fixed;
 padding:0;
-margin:0;
-    left:98em;
-    top:25em;
+
+right:-100;
+top:20em;
+animation: fadeIn 10s;
+-webkit-animation: fadeIn 10s;
+-moz-animation: fadeIn 10s;
+-o-animation: fadeIn 10s;
+-ms-animation: fadeIn 10s;
+
+    flex-shrink: 1;
+
     scale:2;
-    border: 1px solid yellow;
  font-family: 'Nova Mono', monospace;
    color:white;
     z-index:5;
+    width: max-content;
     }
 }
 
 
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
 
 
   .primary h2 {
@@ -85,6 +121,13 @@ margin:0;
   right:0;
   position:fixed;
 }
+
+.knifelink {
+  position: relative;
+  left: 10em;
+  top: 20em;
+
+}
   .purplecaption {
     color:white;
     margin-left: 30px;
@@ -104,19 +147,6 @@ margin:0;
     color:white;
     font-family: 'Nova Mono', monospace;
       margin-right: 20px;
-  }
-
-
-  .animatedhand {
-    width:50%;
-    height:100vh;
-    float:right;
-    height:100vh;
-    opacity: 70%;
-    position: fixed;
-    top:0;
-    right:0;
-
   }
 
   .animatedhand  {
@@ -147,11 +177,14 @@ margin:0;
 }
 
 
+.linkformat {
 
+}
   .linkformat a {
     font-family: 'Nova Mono', monospace;
     color: white;
 text-decoration: none
+
   }
 
    nav{
